@@ -1,0 +1,214 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color:#84e4ac
+}
+
+p {
+    line-height: 1.5;
+    text-indent: 20px;
+}
+    
+.header-container {
+    background: linear-gradient(to bottom, 
+    var(--primary-color-header), 
+    var(--secondary-color-header), 
+    var(--tertiary-color-header), 
+    var(--quaternary-color-header), 
+    var(--quinary-color-header));
+    color: white;
+    padding: 20px;
+    text-align: center; 
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 180px;
+    box-sizing: border-box;
+}
+
+main > * {
+    background-color: white;
+    padding: 20px;
+    
+
+}
+
+.main-content {
+    width: 60%;
+    text-align: left;
+
+}
+.main-content h2{
+    text-align: left;
+}
+
+.no-makers{
+    padding-left: 0;
+}
+
+.no-makers li{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.no-makers a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.no-makers a:hover{
+    color: var(--secondary-color-header)
+}
+
+.info-section {
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+
+.info-section h1{
+    font-family: idroid;
+    color: var(--quaternary-color-header);
+}
+
+.info-section a, .link-green{
+    color: var(--quaternary-color-header);
+    text-decoration: none;
+}
+
+.additional-info{
+    margin-bottom: -20px;
+}
+
+.additional-info h2{
+    font-family: idroid;
+    
+}
+
+.tittle-secondary{
+    color:var(--quaternary-color-header);
+    background: linear-gradient(to right, rgb(165, 243, 169), white);
+    margin-top: -40px;
+}
+
+.bugdroid {
+    width: auto;
+    height: 200px;
+}
+
+.bugdroid-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.android-img {
+    width: 100%;
+}
+
+.video-container {
+    background-color: var(--quaternary-color-header);
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -1px;
+   
+}
+
+.tittle-tertiary {
+    background-color: #30ac64;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -20px;
+}
+
+.tittle-tertiary h3 {
+    padding: 11px;
+}
+
+.makers-correct{
+    list-style-type:none;
+    padding: 0;
+}
+
+.makers-correct li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.makers-correct li::before {
+    content: '✔'; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: black;
+    font-size: 1.2em; 
+    line-height: 1; 
+}
+
+.makers-correct a {
+    color: black;
+}
+
+.two-columns {
+    display: flex;
+    flex-wrap: wrap; 
+    list-style: none; 
+    padding: 0;
+}
+
+.two-columns li {
+    width: 50%; 
+    box-sizing: border-box; 
+    margin: 0;
+}
+
+.box-green {
+    margin-top: -20px;
+    background-color: #b7f3d0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+}
+
+footer {
+    background-color: var(--quaternary-color-header);
+    margin-bottom: -40px;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin: 40px;
+}
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+}
+
+span {
+    color: var(--quaternary-color-header);
+    
+}

@@ -1,0 +1,16 @@
+# Arquivos de sistema
+.DS_Store
+
+# Arquivos temporários gerados por editores
+*.swp
+*~
+
+# Diretório de node_modules, caso não esteja usando npm
+node_modules/
+
+# Arquivos de configuração de IDEs
+.idea/
+
+# Arquivos de cache ou temporários de desenvolvimento
+.cache/
+.tmp/

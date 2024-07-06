@@ -133,6 +133,10 @@ main > * {
    
 }
 
+iframe{
+    width: 100%;
+}
+
 .tittle-tertiary {
     background-color: #30ac64;
     color: white;
